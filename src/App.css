@@ -1,5 +1,17 @@
+:root {
+  --primary: #006666;
+  --secondary: #9dbcbc;
+  --thirdary: #fff5bb;
+  --darker: #6b6b6b;
+  --dark: #b7b7b7;
+}
 
-/* HEADER SECTION */
+/* HEADER/HERO SECTION */
+
+.background-color {
+  background-color: var(--primary);
+  padding: 1rem 0;
+}
 .hero {
   display: flex;
   align-items: center;
@@ -9,12 +21,40 @@
   padding-left: 2rem;
 }
 .nav-bar {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: bolder;
-  
 }
 .nav-bar-anchors {
- padding-right: 2rem;
- text-decoration: none;
- color: black;
+  padding-right: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+/* About Me Page */
+
+.about-me-background,
+.portfolio-background,
+.contact-background,
+.resume-background {
+  background-color: var(--secondary);
+  padding-bottom: 100%;
+
+}
+
+/* Portfolio page */
+
+.portfolio-projects {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.project-section{
+padding: 1rem;
+
+}
+
+.project-wrapper {
+  max-width: 700px;
 }
