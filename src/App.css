@@ -6,6 +6,19 @@
   --dark: #b7b7b7;
 }
 
+
+.about-me-background,
+.portfolio-background,
+.contact-background,
+.resume-background {
+  background-color: var(--secondary);
+  padding-bottom: 100%;
+  
+}
+
+.space-between-hero-content {
+padding: 1rem 0;
+}
 /* HEADER/HERO SECTION */
 
 .background-color {
@@ -20,6 +33,9 @@
 .name {
   padding-left: 2rem;
 }
+
+
+
 .nav-bar {
   font-size: 1.5rem;
   font-weight: bolder;
@@ -30,31 +46,43 @@
   color: black;
 }
 
-/* About Me Page */
-
-.about-me-background,
-.portfolio-background,
-.contact-background,
-.resume-background {
-  background-color: var(--secondary);
-  padding-bottom: 100%;
-
+.description-font {
+  font-size: larger;
+  font-weight: bolder;
+  color: var(--darker);
 }
 
+.header-font {
+  
+
+}
+/* About Me Page */
+
+
 /* Portfolio page */
+
+.project-section{
+padding: 1rem;
+max-width: 300px;
+}
 
 .portfolio-projects {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-}
-
-.project-section{
-padding: 1rem;
-
+  align-items: center;
+ 
 }
 
 .project-wrapper {
-  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-section-long {
+ height: 250px;
+  width: 600px;
+  padding: 1rem;
 }

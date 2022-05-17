@@ -3,23 +3,32 @@ import React from "react";
 export default function Home() {
   return (
     // ACTUALLY ABOUT ME SECTION
-    <div className="about-me-background">
+    <div className="about-me-background ">
       <div className="">
-        {/* <img src="../../../public/images/Snapchat-134957225.jpg" alt="picture of me" /> */}
-        <h1>About Me</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-          velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia
-          nisi ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex.
-          Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-          imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum
-          tortor. Cras rutrum ligula in tincidunt commodo. Morbi sit amet mollis
-          orci, in tristique ex. Donec nec ornare elit. Donec blandit est sed
-          risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-          consequat. Vestibulum vitae lorem tortor. In elementum ultricies
-          tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        </p>
+        <div className="">
+          {/* <img src="../../../public/images/Snapchat-134957225.jpg" alt="picture of me" /> */}
+        </div>
+        <div className="">
+          <h1 className="header-font">About Me</h1>
+          <p className="description-font">
+            Hello! My name is Caleb Luster and I recently finished a 6 month
+            full stack web development bootcamp through the University of
+            Minnesota.
+            <br />
+            <br />
+            <br />
+            In my time not coding, I like to disc golf
+            with my friends, hang out with my fiance, find and collect old
+            pennies, and woodwork! Of course spending the night around the fire
+            with family is always a good time.
+            <br />
+            <br />
+            <br />
+            If you have any questions or need to reach me check out the contact section of my website!
+          </p>
+        </div>
       </div>
+      {/* <footer className="background-color"></footer> */}
     </div>
   );
 }
